@@ -1,21 +1,23 @@
-import React, { Component } from 'react';
-
+import React, { Component } from 'react'
 
 class App extends Component {
 
-	state = {
-
-	};
-
+	state = {};
 
 	render() {
 		return (
 			<div className="app">
-				<h1 className="app__heading">Hello World!</h1>
+				<ul className="app__header">
+					<li className="app__header--logo">
+						<i className="fa fa-bookmark-o"></i>
+					</li>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">BOOKS</a></li>
+					<li><a href="#">DICTIONARY</a></li>
+				</ul>
 			</div>
 		)
 	}
 }
-
 
 export default App;
