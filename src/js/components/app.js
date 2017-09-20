@@ -21,7 +21,8 @@ class App extends Component {
 					<section className="hero">
 						<img src="http://img-fotki.yandex.ru/get/9836/89721587.22c/0_d3cca_d5219616_XXXL.jpg" />
 						<div className="hero__content">
-							INFO
+							<span className="hero__content__title"><b>Twenty Thousand Leagues Under the Sea</b></span>
+							<span className="hero__content__autor">Jules Verne</span>
 						</div>
 					</section>
 				</div>

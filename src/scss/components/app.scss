@@ -1,43 +1,54 @@
-.app {
-  &__header {
-    display: -webkit-flex;
-    display: flex;
-    background-color: #eae9e5;
-    align-items: center;
-    justify-content: center;
+.app {  }
 
-    &--logo {
-      margin-right: auto;
-      i {
-        margin-left: 30px;
-        max-width: 50%;
-        font-size: 30px;
-        color: $c-grey;
-      }
+.content {  }
+
+
+.header {
+  display: -webkit-flex;
+  display: flex;
+  background-color: #eae9e5;
+  align-items: center;
+  justify-content: center;
+
+  &__nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      float: left;
     }
+  }
 
-    a {
-      margin: 15px;
-      display: block;
-      padding: 15px;
-      text-decoration: none;
+  &__logo {
+    margin-right: auto;
+    i {
+      margin-left: 30px;
+      max-width: 50%;
+      font-size: 30px;
       color: $c-grey;
-      i {
-        margin-right: 5px;
-        color: $c-blue;
-      }
     }
+  }
 
-    a:hover {
-      color: $c-grey--dark;
-      i {
-        color: $c-blue--dark;
-      }
+  a {
+    margin: 15px;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: $c-grey;
+    i {
+      margin-right: 5px;
+      color: $c-blue;
+    }
+  }
+
+  a:hover {
+    color: $c-grey--dark;
+    i {
+      color: $c-blue--dark;
     }
   }
 }
-
-.content {  }
 
 .hero {
   width: 100%;
@@ -54,7 +65,22 @@
 
   &__content {
     position: absolute;
-    top: 10%;
-    left: 0;
+    top: 20%;
+    left: 10%;
+    color: $c-white;
+
+    &__title {
+      font-size: 4vh;
+    }
+
+    &__autor {
+      font-size: 3vh;
+    }
+
+    span {
+      float: left;
+      width: 100%;
+      margin-bottom: 1vh;
+    }
   }
 }
