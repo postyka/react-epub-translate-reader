@@ -25,6 +25,11 @@ class App extends Component {
 							<span className="hero__content__autor">Jules Verne</span>
 						</div>
 					</section>
+					<section className="reader">
+						<div className="reader__nav">
+							<button><i className="fa fa-arrows-alt"></i></button>
+						</div>
+					</section>
 				</div>
 			</div>
 		)

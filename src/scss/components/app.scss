@@ -84,3 +84,25 @@
     }
   }
 }
+
+.reader {
+  width: 100%;
+  height: 100vh;
+  background-color: #EAE9E5;
+
+  &__nav {
+    button {
+      padding: 10px;
+      i {
+        color: #BDC5C6;
+      }
+    }
+
+    botton:hover {
+     background-color: #BDC5C6;
+      i {
+        color: #EAE9E5;
+      }
+    }
+  }
+}
